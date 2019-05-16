@@ -4,7 +4,7 @@ object SaveLoadMicroservice {
   val server = new SaveLoad
   def main(args: Array[String]): Unit = {
 
-
+    println("läuft")
     var input: String = ""
     do {
       input = readLine()
