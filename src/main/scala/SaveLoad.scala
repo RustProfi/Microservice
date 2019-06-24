@@ -50,7 +50,7 @@ class SaveLoad extends Directives {
     }
 
 
-  val bindingFuture = Http().bindAndHandle(route, "0.0.0.0", 8070)
+  val bindingFuture = Http().bindAndHandle(route, "localhost", 8070)
 
   def unbind = {
     bindingFuture
